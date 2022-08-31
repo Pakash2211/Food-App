@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#sing_box {
+    /* display: flex;
+    flex-direction: column; */
+    width: 22%;
+    margin: auto;
+    padding: 48px 64px 48px 40px;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#sing_box>p {
+    width: 100%;
+}
+
+input:hover {
+    border: 2px solid black;
+}
+
+.btn:hover {
+    border: none;
+    background-color: #0a54b6;
+}
+
+#sing_box h2 {
+    text-align: center;
+    /* margin-top: -20px; */
+    margin-bottom: 20px;
+}
+
+.eml_error,
+.pass_error {
+    color: red;
+    margin-top: -20px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.inputbox {
+    position: relative;
+}
+
+.inputbox input,
+.btn {
+    padding: 16.5px 14px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: auto;
+    width: 110%;
+    background-color: #0066EE;
+    color: aliceblue;
+    border: none;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 15px;
+    opacity: 0.7;
+    top: 30%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.4s;
+    font-size: 20px;
+}
+
+.inputbox input:focus~span,
+.inputbox.validation span {
+    color: #0066EE;
+    top: 0px;
+    background: white;
+    padding: 3px;
+    font-size: 18px;
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+#sing_box>a {
+    text-decoration: none;
+    color: #0066EE;
+    display: block;
+    text-align: center;
+}
+
+[type="submit"]+p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.text + a{
+   color:#0066EE;
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+
+body {
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}

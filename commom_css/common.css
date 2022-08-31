@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+
+body{
+   
+    background-color: #c8cefd;
+    margin: 0px;
+    padding: 0px;
+}
+/* displaypart */
+.allreceipe{
+    width:84%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Suisse", "Apercu", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.allreceipe img{
+    width:100%; 
+}
+
+.allreceipe> div{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:column;
+    margin:auto;
+     padding: 10px; 
+    cursor: pointer;
+
+}
+
+
+.allreceipe> div > p:hover{
+    cursor: pointer;
+   color:rgb(154, 103, 7);
+}
+.allreceipe>div>p{
+    margin:10px 0px ;
+    text-align: center;
+    color: rgb(223, 150, 15);
+    font-size: 20px;
+    font-weight: 500;
+}
+/* display end */
+
+#main_container{
+    padding: 10px;
+    font-size:18px ;
+}
+
+
+a{
+text-decoration: none;
+color: blanchedalmond;
+}
+#navbar{
+    background-color: #0066EE;
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin-right: -100px;
+    align-items: center;
+}
+a:hover{
+   color: black;
+   cursor: pointer;
+}
+
+/* search part */
+#input_receipe{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
+}
+#input_receipe> .receipe_search{
+
+    width: 20%;
+    padding: 4px;
+}
+.profile{
+    height: 35px;
+    display: block;
+    background-color: #a0cbee;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.detail{
+    display: none;
+    position: absolute;
+    height:120px;
+    border: 1px solid rgb(24, 24, 247);
+    top:42px;
+    right:50px;
+    background-color: #b8bde0;
+    width: 380px;
+    padding: 15px;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+/* search end */
+
+
+/* <---- receipe detail----->*/
+
+
+.alldetail{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alldetail h1{
+ margin: 10px 0px;
+}
+.alldetail img{
+    display: block;
+    width: 30%;
+    margin: 10px 0px;
+}
+
+.alldetail  div{
+    text-align: center;
+    margin: 10px 0px;
+}
+.alldetail  div+p{
+    margin: auto;
+    width:60% ;
+    text-align:center;
+}
+.alldetail p{
+    text-align: center;
+    font-size: 20px;
+}

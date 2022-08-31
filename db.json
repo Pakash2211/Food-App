@@ -1,0 +1,34 @@
+{
+  "login": [
+    {
+      "email": "patelakash221199@gmail.com",
+      "password": "kash@221199",
+      "user": "Akash",
+      "id": 1
+    },
+    {
+      "email": "patelam221199@gmail.com",
+      "password": "Akash@2211",
+      "user": "patel",
+      "id": 2
+    },
+    {
+      "email": "patelakash2199@gmail.com",
+      "password": "Akash@2211",
+      "user": "Akash",
+      "id": 3
+    },
+    {
+      "email": "akash@gmail.com",
+      "password": "221199",
+      "user": "Akash Patel",
+      "id": 4
+    },
+    {
+      "email": "patelakash221199@gmail.com",
+      "password": "Akash@2211",
+      "user": "Akash",
+      "id": 5
+    }
+  ]
+}
